@@ -1,0 +1,10 @@
+2026-01-16 22:21:16,071 - __main__ - INFO - Запуск бота...
+2026-01-16 22:21:16,071 - __main__ - INFO - Инициализация базы данных...
+2026-01-16 22:21:18,929 - __main__ - INFO - Бот запущен: @reshAI_gdzbot
+2026-01-16 22:21:18,930 - aiogram.dispatcher - INFO - Start polling
+2026-01-16 22:21:18,973 - aiogram.dispatcher - INFO - Run polling for bot @reshAI_gdzbot id=8255509638 - 'reshAI'
+2026-01-16 22:21:49,666 - aiogram.event - INFO - Update id=183924973 is handled. Duration 235 ms by bot id=8255509638
+2026-01-16 22:21:57,434 - aiogram.event - INFO - Update id=183924974 is handled. Duration 62 ms by bot id=8255509638
+2026-01-16 22:22:22,808 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-01-16 22:22:22,808 - services.ai_service - ERROR - AI API ошибка 403: {"error":{"code":"unsupported_country_region_territory","message":"Country, region, or territory not supported","param":null,"type":"request_forbidden"}}
+2026-01-16 22:22:22,875 - aiogram.event - INFO - Update id=183924975 is handled. Duration 452 ms by bot id=8255509638

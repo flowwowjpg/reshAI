@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 services:
   - type: worker
     name: gdz-bot
@@ -15,3 +16,22 @@ services:
         value: https://api.openai.com/v1/chat/completions
       - key: AI_MODEL
         value: gpt-3.5-turbo
+=======
+services:
+  - type: worker
+    name: gdz-bot
+    runtime: python
+    buildCommand: |
+      apt-get update && apt-get install -y tesseract-ocr tesseract-ocr-rus tesseract-ocr-eng
+      pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: AI_API_KEY
+        sync: false
+      - key: AI_API_URL
+        value: https://api.openai.com/v1/chat/completions
+      - key: AI_MODEL
+        value: gpt-3.5-turbo
+>>>>>>> c019fb3704d76551e27d6d4b41bc90cfb01f08b4

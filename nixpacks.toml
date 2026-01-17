@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [phases.setup]
 nixPkgs = ["tesseract", "tesseract-data-rus", "tesseract-data-eng"]
 
@@ -6,3 +7,13 @@ cmds = ["pip install -r requirements.txt"]
 
 [start]
 cmd = "python bot.py"
+=======
+[phases.setup]
+nixPkgs = ["tesseract", "tesseract-data-rus", "tesseract-data-eng"]
+
+[phases.install]
+cmds = ["pip install -r requirements.txt"]
+
+[start]
+cmd = "python bot.py"
+>>>>>>> c019fb3704d76551e27d6d4b41bc90cfb01f08b4

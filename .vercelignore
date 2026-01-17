@@ -1,0 +1,7 @@
+bot.py
+bot.log
+database/gdz.db
+__pycache__
+*.pyc
+.env
+.git
